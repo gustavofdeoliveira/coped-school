@@ -11,6 +11,12 @@ nav{
     margin-top: -10px;
     background-image: url(../img/menu-bar.png);
 }
+nav {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  ;
+  }
 nav:after{
   content: '';
   clear: both;

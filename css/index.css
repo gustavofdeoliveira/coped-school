@@ -112,6 +112,10 @@ img{
 }
 
 /*Carrossel*/
+.carousel-inner{
+	position: relative;
+	margin-top: 70px;
+}
 
 /*Sobre nós na main*/
 
@@ -207,6 +211,11 @@ img{
 }
 
 /*Media*/
+@media screen and (min-width: 568px){
+	#carouselExampleControls{
+		margin-right: -40%;
+	}
+}
 
 @media screen and (min-width: 768px){
 
@@ -222,8 +231,7 @@ img{
 	.btn-sobre p{
 		padding: 2% 15%;
 		font-size: 25px;
-		font-weight: bold;
-		
+		font-weight: bold;	
 	}
 
 	.btn-container{
@@ -257,5 +265,16 @@ img{
 	}
 
 
+
+}
+
+@media screen and (min-width: 900px){
+	.carousel-inner{
+		width: 100%;
+		height: 600px;
+	}
+	.carousel-inner img{
+		margin-top: -100px;
+	}
 
 }
